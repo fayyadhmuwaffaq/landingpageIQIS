@@ -4,354 +4,188 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>IQIS Makassar</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
         font-family: "Inter", sans-serif;
       }
     </style>
   </head>
-  <body class="bg-white justify-center min-h-screen">
-    <div class="bg-white shadow-lg w-full">
-    <!-- Header and Hero Section -->
-    <header class="bg-[#ffdd00]">
-        <div class="max-w-5xl mx-auto px-4 pt-4 pb-6">
-            <div class="flex items-center justify-between">
-                <div class="flex items-center space-x-2">
-                    <img alt="yayasan Ibnul qayyim" src="/img/yayasan.png" class="h-10"/>
-                </div>
-                <button aria-label="Menu" class="text-white text-xl ml-4 sm:ml-6 focus:outline-none">
-                    <i class="fas fa-bars text-[24px]"></i>
-                </button>
-            </div>
+
+
+  <body class="bg-[#f7f7f7] m-0 p-0">
+    <!-- Navbar -->
+    <header class="bg-[#ffdd00] pt-2 pb-2">
+      <div class="max-w-3xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 h-14">
+        <div class="flex items-center space-x-2">
+          <img alt="yayasan" class="h-12" src="img/yayasaniqis.png"/>
         </div>
+        
+        <button aria-label="PPDB" class="text-white text-xl ml-4">
+          <i class="fas fa-bars text-[24px]"> </i>
+        </button>
+      </div>
     </header>
 
-        <main class="bg-[#f9fafb] px-4 py-6 max-w-[720px] mx-auto">
-        <div class="flex justify-between items-center">
-            <h3 class="text-[18px] font-semibold mb-3">Artikel</h3>
-            <a href="" class="mb-3 text-[14px]">lihat semua</a>
-        </div>
-        
-        <!-- Item -->
-        <div aria-label="" class="carousel flex gap-3 overflow-x-auto pb-2 scroll-smooth" role="list">
+    <div class="bg-[url('img/bg1.png')] bg-cover bg-center bg-no-repeat h-[60vh]">
 
-            <article class="bg-white rounded-md shadow-sm flex-shrink-0" role="listitem">
-                <img
-                alt="Gerakan Infaq Beras campaign image with group of people and text Gerakan Infaq Beras on teal background"
-                class="w-full h-[100px] object-cover rounded-t-md"
-                height="100"
-                src="https://storage.googleapis.com/a1aa/image/22b43b6d-566a-445e-183c-5f18449b47cb.jpg"
-                width="10"/>
+    </div>
 
-                <div class="p-4 text-[14px]">
-                    <h4 class="font-semibold leading-tight mb-1">Raih Berkah di Gerakan Infaq Beras</h4>
-                    <!-- <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-                    <div class="font-bold text-[13px]">Rp. 207.776</div> -->
-                </div>
-            </article>
+    
 
-            <article
-            class="bg-white rounded-md shadow-sm min-w-[180px] flex-shrink-0"
-            role="listitem"
-          >
-            <img
-              alt="Sedekah Sumur campaign image with man and child drinking water, text Sedekah Sumur untuk Masjid dan Pesantren on teal background"
-              class="w-full h-[100px] object-cover rounded-t-md"
-              height="100"
-              src="https://storage.googleapis.com/a1aa/image/50bfc677-89ba-42df-ce54-c71b52a43b68.jpg"
-              width="180"
-            />
-            <div class="p-2 text-[12px]">
-              <h4 class="font-semibold leading-tight mb-1">
-                Selamatkan Mereka dari Krisis Air: Sedekah Jariyah yang Tak
-              </h4>
-              <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-              <div class="font-bold text-[13px]">Rp. 751.174.211</div>
-              <div class="h-1 w-full bg-gray-200 rounded-full mt-2">
-                <div
-                  class="h-1 bg-[#2a9a97] rounded-full"
-                  style="width: 70%"
-                ></div>
-              </div>
+
+    <main class="max-w-3xl mx-auto mt-4 px-4 sm:px-6 md:px-8">
+      <!-- Section Title -->
+      <h2 class="text-xs font-semibold text-[#1a1a1a] mb-2">
+        Pilihan Sedekah Terbaik
+      </h2>
+      <!-- Scrollable Cards -->
+      <div class="flex space-x-2 overflow-x-auto pb-2 scrollbar-hide">
+        <!-- Card 1 -->
+        <article
+          class="min-w-[180px] bg-white rounded-md shadow-sm flex-shrink-0"
+        >
+          <img
+            alt="Banner image showing Gerakan Infaq Beras with people and green background"
+            class="rounded-t-md w-full h-[100px] object-cover"
+            height="100"
+            src="https://storage.googleapis.com/a1aa/image/12f0b4d7-54c7-4276-1d68-5eb9d136fe3b.jpg"
+            width="180"
+          />
+          <div class="px-2 pt-1 pb-2">
+            <h3 class="text-xs font-semibold text-[#1a1a1a] leading-tight">
+              Raih Berkah di Gerakan Infaq Beras
+            </h3>
+            <div class="h-1 w-full bg-[#d1d9e3] rounded-full mt-1 mb-1">
+              <div class="h-1 w-[20%] bg-[#4db0aa] rounded-full"></div>
             </div>
-          </article>
-          <article
-            class="bg-white rounded-md shadow-sm min-w-[180px] flex-shrink-0"
-            role="listitem"
-          >
-            <img
-              alt="Sedekah Pelosok campaign image with person in yellow jacket and text Sedekah Pelosok on teal background"
-              class="w-full h-[100px] object-cover rounded-t-md"
-              height="100"
-              src="https://storage.googleapis.com/a1aa/image/df81cdc8-ef72-4932-d75b-6f4932f39d9f.jpg"
-              width="180"
-            />
-            <div class="p-2 text-[12px]">
-              <h4 class="font-semibold leading-tight mb-1">Sedekah Pelosok</h4>
-              <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-              <div class="font-bold text-[13px]">Rp. 60.000.000</div>
-              <div class="h-1 w-full bg-gray-200 rounded-full mt-2">
-                <div
-                  class="h-1 bg-[#2a9a97] rounded-full"
-                  style="width: 40%"
-                ></div>
-              </div>
+            <p class="text-[9px] text-[#7a7a7a]">Terkumpul</p>
+            <p class="text-xs font-bold text-[#1a1a1a]">Rp. 207.776</p>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article
+          class="min-w-[180px] bg-white rounded-md shadow-sm flex-shrink-0"
+        >
+          <img
+            alt="Banner image showing Sedekah Sumur with a man and child drinking water"
+            class="rounded-t-md w-full h-[100px] object-cover"
+            height="100"
+            src="https://storage.googleapis.com/a1aa/image/5e2fa9de-8c8f-4830-37f6-d1449da0a386.jpg"
+            width="180"
+          />
+          <div class="px-2 pt-1 pb-2">
+            <h3 class="text-xs font-semibold text-[#1a1a1a] leading-tight">
+              Selamatkan Mereka dari Krisis Air: Sedekah Jariyah yang Tak
+            </h3>
+            <div class="h-1 w-full bg-[#d1d9e3] rounded-full mt-1 mb-1">
+              <div class="h-1 w-[70%] bg-[#1f4f5a] rounded-full"></div>
             </div>
-          </article>
-        </div>
-        </main>
-        <main class="bg-[#f9fafb] px-4 py-6 max-w-[720px] mx-auto">
-        <div class="flex justify-between items-center">
-            <h3 class="text-[18px] font-semibold mb-3">Artikel</h3>
-            <a href="" class="mb-3 text-[14px]">lihat semua</a>
-        </div>
-        
-        <!-- Item -->
-        <div aria-label="" class="carousel flex gap-3 overflow-x-auto pb-2 scroll-smooth" role="list">
-
-            <article class="bg-white rounded-md shadow-sm flex-shrink-0" role="listitem">
-                <img
-                alt="Gerakan Infaq Beras campaign image with group of people and text Gerakan Infaq Beras on teal background"
-                class="w-full h-[100px] object-cover rounded-t-md"
-                height="100"
-                src="https://storage.googleapis.com/a1aa/image/22b43b6d-566a-445e-183c-5f18449b47cb.jpg"
-                width="10"/>
-
-                <div class="p-4 text-[14px]">
-                    <h4 class="font-semibold leading-tight mb-1">Raih Berkah di Gerakan Infaq Beras</h4>
-                    <!-- <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-                    <div class="font-bold text-[13px]">Rp. 207.776</div> -->
-                </div>
-            </article>
-
-            <article
-            class="bg-white rounded-md shadow-sm min-w-[180px] flex-shrink-0"
-            role="listitem"
-          >
-            <img
-              alt="Sedekah Sumur campaign image with man and child drinking water, text Sedekah Sumur untuk Masjid dan Pesantren on teal background"
-              class="w-full h-[100px] object-cover rounded-t-md"
-              height="100"
-              src="https://storage.googleapis.com/a1aa/image/50bfc677-89ba-42df-ce54-c71b52a43b68.jpg"
-              width="180"
-            />
-            <div class="p-2 text-[12px]">
-              <h4 class="font-semibold leading-tight mb-1">
-                Selamatkan Mereka dari Krisis Air: Sedekah Jariyah yang Tak
-              </h4>
-              <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-              <div class="font-bold text-[13px]">Rp. 751.174.211</div>
-              <div class="h-1 w-full bg-gray-200 rounded-full mt-2">
-                <div
-                  class="h-1 bg-[#2a9a97] rounded-full"
-                  style="width: 70%"
-                ></div>
-              </div>
+            <p class="text-[9px] text-[#7a7a7a]">Terkumpul</p>
+            <p class="text-xs font-bold text-[#1a1a1a]">Rp. 751.174.211</p>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <article
+          class="min-w-[120px] bg-white rounded-md shadow-sm flex-shrink-0"
+        >
+          <img
+            alt="Banner image showing Sedekah Pelosok with a person and green background"
+            class="rounded-t-md w-full h-[100px] object-cover"
+            height="100"
+            src="https://storage.googleapis.com/a1aa/image/eb33a77a-b05f-4a49-cdb4-f54c127e7a09.jpg"
+            width="120"
+          />
+          <div class="px-2 pt-1 pb-2">
+            <h3 class="text-xs font-semibold text-[#1a1a1a] leading-tight">
+              Sedekah Pelosok
+            </h3>
+            <div class="h-1 w-full bg-[#d1d9e3] rounded-full mt-1 mb-1">
+              <div class="h-1 w-[40%] bg-[#3ba39c] rounded-full"></div>
             </div>
-          </article>
-          <article
-            class="bg-white rounded-md shadow-sm min-w-[180px] flex-shrink-0"
-            role="listitem"
-          >
-            <img
-              alt="Sedekah Pelosok campaign image with person in yellow jacket and text Sedekah Pelosok on teal background"
-              class="w-full h-[100px] object-cover rounded-t-md"
-              height="100"
-              src="https://storage.googleapis.com/a1aa/image/df81cdc8-ef72-4932-d75b-6f4932f39d9f.jpg"
-              width="180"
-            />
-            <div class="p-2 text-[12px]">
-              <h4 class="font-semibold leading-tight mb-1">Sedekah Pelosok</h4>
-              <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-              <div class="font-bold text-[13px]">Rp. 60.000.000</div>
-              <div class="h-1 w-full bg-gray-200 rounded-full mt-2">
-                <div
-                  class="h-1 bg-[#2a9a97] rounded-full"
-                  style="width: 40%"
-                ></div>
-              </div>
-            </div>
-          </article>
+            <p class="text-[9px] text-[#7a7a7a]">Terkumpul</p>
+            <p class="text-xs font-bold text-[#1a1a1a]">Rp. 60.000</p>
+          </div>
+        </article>
+      </div>
+      <!-- Buttons -->
+      <div class="flex justify-between mt-8 space-x-4">
+        <button
+          class="flex items-center space-x-2 bg-white rounded-md shadow px-6 py-3 text-xs font-semibold text-[#1a1a1a] w-full max-w-[45%]"
+          type="button"
+        >
+          <img
+            alt="Icon of a hand putting money in a box"
+            class="w-5 h-5"
+            height="20"
+            src="https://storage.googleapis.com/a1aa/image/83b565d0-dc8f-43cc-3589-3058a0993375.jpg"
+            width="20"
+          />
+          <span> Infaqu </span>
+        </button>
+        <button
+          class="flex items-center space-x-2 bg-white rounded-md shadow px-6 py-3 text-xs font-semibold text-[#1a1a1a] w-full max-w-[45%]"
+          type="button"
+        >
+          <img
+            alt="Icon of a jar with coins"
+            class="w-5 h-5"
+            height="20"
+            src="https://storage.googleapis.com/a1aa/image/b2e665c4-4164-4f97-5c92-708a5d8c58f9.jpg"
+            width="20"
+          />
+          <span> Donasi Rutin </span>
+        </button>
+      </div>
+      <!-- Banner -->
+      <section class="mt-8 bg-white rounded-md shadow overflow-hidden">
+        <img
+          alt="Banner with text Ayo Tunaikan ZAKAT! with a woman in blue and black headscarf holding a laptop and colorful icons floating"
+          class="w-full object-cover"
+          height="200"
+          src="https://storage.googleapis.com/a1aa/image/c8d06c80-619e-4995-a5f6-2865d0d3a882.jpg"
+          width="720"
+        />
+      </section>
+    </main>
+
+
+    <!-- Footer Navigation -->
+    <nav aria-label="Primary" class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 flex justify-between text-gray-400 text-[10px] font-semibold">
+      <!-- <div class="max-w-3xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 h-14">
+        <div class="flex items-center space-x-2">
+          
         </div>
-        </main>
-        <main class="bg-[#f9fafb] px-4 py-6 max-w-[720px] mx-auto">
-        <div class="flex justify-between items-center">
-            <h3 class="text-[18px] font-semibold mb-3">Artikel</h3>
-            <a href="" class="mb-3 text-[14px]">lihat semua</a>
-        </div>
-        
-        <!-- Item -->
-        <div aria-label="" class="carousel flex gap-3 overflow-x-auto pb-2 scroll-smooth" role="list">
+      </div> -->
+      <!-- <div class="max-w-3xl mx-auto flex items-center justify-between"> -->
+        <button aria-label="Beranda" class="flex flex-col items-center justify-center py-2 px-4 flex-1 hover:text-[#3ba39c]">
+        <i class="fas fa-home text-lg"> </i>
+        <span class="mt-1"> Beranda </span>
+      </button>
 
-            <article class="bg-white rounded-md shadow-sm flex-shrink-0" role="listitem">
-                <img
-                alt="Gerakan Infaq Beras campaign image with group of people and text Gerakan Infaq Beras on teal background"
-                class="w-full h-[100px] object-cover rounded-t-md"
-                height="100"
-                src="https://storage.googleapis.com/a1aa/image/22b43b6d-566a-445e-183c-5f18449b47cb.jpg"
-                width="10"/>
+      <button aria-label="Artikel" class="flex flex-col items-center justify-center py-2 px-4 flex-1 hover:text-[#3ba39c]">
+        <i class="fas fa-hand-holding-usd text-lg"> </i>
+        <span class="mt-1"> Artikel </span>
+      </button>
 
-                <div class="p-4 text-[14px]">
-                    <h4 class="font-semibold leading-tight mb-1">Raih Berkah di Gerakan Infaq Beras</h4>
-                    <!-- <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-                    <div class="font-bold text-[13px]">Rp. 207.776</div> -->
-                </div>
-            </article>
+      <button aria-label="Fasilitas" class="flex flex-col items-center justify-center py-2 px-4 flex-1 hover:text-[#3ba39c]">
+        <i class="fas fa-donate text-lg"> </i>
+        <span class="mt-1"> Fasilitas </span>
+      </button>
 
-            <article
-            class="bg-white rounded-md shadow-sm min-w-[180px] flex-shrink-0"
-            role="listitem"
-          >
-            <img
-              alt="Sedekah Sumur campaign image with man and child drinking water, text Sedekah Sumur untuk Masjid dan Pesantren on teal background"
-              class="w-full h-[100px] object-cover rounded-t-md"
-              height="100"
-              src="https://storage.googleapis.com/a1aa/image/50bfc677-89ba-42df-ce54-c71b52a43b68.jpg"
-              width="180"
-            />
-            <div class="p-2 text-[12px]">
-              <h4 class="font-semibold leading-tight mb-1">
-                Selamatkan Mereka dari Krisis Air: Sedekah Jariyah yang Tak
-              </h4>
-              <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-              <div class="font-bold text-[13px]">Rp. 751.174.211</div>
-              <div class="h-1 w-full bg-gray-200 rounded-full mt-2">
-                <div
-                  class="h-1 bg-[#2a9a97] rounded-full"
-                  style="width: 70%"
-                ></div>
-              </div>
-            </div>
-          </article>
-          <article
-            class="bg-white rounded-md shadow-sm min-w-[180px] flex-shrink-0"
-            role="listitem"
-          >
-            <img
-              alt="Sedekah Pelosok campaign image with person in yellow jacket and text Sedekah Pelosok on teal background"
-              class="w-full h-[100px] object-cover rounded-t-md"
-              height="100"
-              src="https://storage.googleapis.com/a1aa/image/df81cdc8-ef72-4932-d75b-6f4932f39d9f.jpg"
-              width="180"
-            />
-            <div class="p-2 text-[12px]">
-              <h4 class="font-semibold leading-tight mb-1">Sedekah Pelosok</h4>
-              <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-              <div class="font-bold text-[13px]">Rp. 60.000.000</div>
-              <div class="h-1 w-full bg-gray-200 rounded-full mt-2">
-                <div
-                  class="h-1 bg-[#2a9a97] rounded-full"
-                  style="width: 40%"
-                ></div>
-              </div>
-            </div>
-          </article>
-        </div>
-        </main>
-        <main class="bg-[#f9fafb] px-4 py-6 max-w-[720px] mx-auto">
-        <div class="flex justify-between items-center">
-            <h3 class="text-[18px] font-semibold mb-3">Artikel</h3>
-            <a href="" class="mb-3 text-[14px]">lihat semua</a>
-        </div>
-        
-        <!-- Item -->
-        <div aria-label="" class="carousel flex gap-3 overflow-x-auto pb-2 scroll-smooth" role="list">
-
-            <article class="bg-white rounded-md shadow-sm flex-shrink-0" role="listitem">
-                <img
-                alt="Gerakan Infaq Beras campaign image with group of people and text Gerakan Infaq Beras on teal background"
-                class="w-full h-[100px] object-cover rounded-t-md"
-                height="100"
-                src="https://storage.googleapis.com/a1aa/image/22b43b6d-566a-445e-183c-5f18449b47cb.jpg"
-                width="10"/>
-
-                <div class="p-4 text-[14px]">
-                    <h4 class="font-semibold leading-tight mb-1">Raih Berkah di Gerakan Infaq Beras</h4>
-                    <!-- <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-                    <div class="font-bold text-[13px]">Rp. 207.776</div> -->
-                </div>
-            </article>
-
-            <article
-            class="bg-white rounded-md shadow-sm min-w-[180px] flex-shrink-0"
-            role="listitem"
-          >
-            <img
-              alt="Sedekah Sumur campaign image with man and child drinking water, text Sedekah Sumur untuk Masjid dan Pesantren on teal background"
-              class="w-full h-[100px] object-cover rounded-t-md"
-              height="100"
-              src="https://storage.googleapis.com/a1aa/image/50bfc677-89ba-42df-ce54-c71b52a43b68.jpg"
-              width="180"
-            />
-            <div class="p-2 text-[12px]">
-              <h4 class="font-semibold leading-tight mb-1">
-                Selamatkan Mereka dari Krisis Air: Sedekah Jariyah yang Tak
-              </h4>
-              <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-              <div class="font-bold text-[13px]">Rp. 751.174.211</div>
-              <div class="h-1 w-full bg-gray-200 rounded-full mt-2">
-                <div
-                  class="h-1 bg-[#2a9a97] rounded-full"
-                  style="width: 70%"
-                ></div>
-              </div>
-            </div>
-          </article>
-          <article
-            class="bg-white rounded-md shadow-sm min-w-[180px] flex-shrink-0"
-            role="listitem"
-          >
-            <img
-              alt="Sedekah Pelosok campaign image with person in yellow jacket and text Sedekah Pelosok on teal background"
-              class="w-full h-[100px] object-cover rounded-t-md"
-              height="100"
-              src="https://storage.googleapis.com/a1aa/image/df81cdc8-ef72-4932-d75b-6f4932f39d9f.jpg"
-              width="180"
-            />
-            <div class="p-2 text-[12px]">
-              <h4 class="font-semibold leading-tight mb-1">Sedekah Pelosok</h4>
-              <div class="text-gray-500 text-[10px] mb-1">Terkumpul</div>
-              <div class="font-bold text-[13px]">Rp. 60.000.000</div>
-              <div class="h-1 w-full bg-gray-200 rounded-full mt-2">
-                <div
-                  class="h-1 bg-[#2a9a97] rounded-full"
-                  style="width: 40%"
-                ></div>
-              </div>
-            </div>
-          </article>
-        </div>
-        </main>
+      <button aria-label="Tentang" class="flex flex-col items-center justify-center py-2 px-4 flex-1 hover:text-[#3ba39c]">
+        <i class="fas fa-map-marker-alt text-lg"> </i>
+        <span class="mt-1"> Tentang </span>
+      </button>
+      <!-- </div> -->
       
+    </nav>
 
-      <!-- Menu Navbar -->
-<div class="">
-  <div class="fixed bottom-0 left-0 right-0 bg-white flex justify-between text-[12px] text-gray-500 max-w-5xl mx-auto px-32 pt-2 pb-2" >
-    <div class="flex flex-row justify-center gap-16 w-full">
-    <!-- Beranda Aktif -->
-    <a href="#beranda" aria-label="Beranda"class="flex flex-col items-center justify-center py-2 px-3 w-full hover:text-[#3db7b5]">
-        <i class="fas fa-home text-[24px] mb-2"></i>Beranda
-    </a>
-
-    <!-- Artikel -->
-    <a href="#artikel" aria-label="Artikel" class="flex flex-col items-center justify-center py-2 px-3 w-full hover:text-[#3db7b5]">
-        <i class="fas fa-home text-[24px] mb-2"></i>Artikel
-    </a>
-
-    <!-- Fasilitas -->
-    <a href="#fasilitas" aria-label="Fasilitas" class="flex flex-col items-center justify-center py-2 px-3 w-full hover:text-[#3db7b5]">
-        <i class="fas fa-home text-[24px] mb-2"></i>Fasilitas
-    </a>
-
-    <!-- Tentang -->
-    <a href="#tentang" aria-label="Tentang" class="flex flex-col items-center justify-center py-2 px-3 w-full hover:text-[#3db7b5]">
-        <i class="fas fa-home text-[24px] mb-2"></i>Tentang
-    </a>
-</div>
-  </div>
-</div>
-</div>
   </body>
 </html>
