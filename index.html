@@ -43,7 +43,7 @@
       </header>
 
 
-    <div class="bg-[url('img/bg1.png')] bg-cover bg-center bg-no-repeat h-[60vh]"></div> 
+    <div class="bg-[url('img/bg1.png')] bg-cover bg-center bg-no-repeat h-[60vh] pt-16"></div> 
 
     
 
@@ -126,10 +126,18 @@
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 mb-8">
           <a href="https://www.instagram.com/tkitibnulqayyim?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
-            class="flex flex-col items-center justify-center bg-white rounded-md shadow text-xs font-semibold text-[#1a1a1a] aspect-square hover:bg-gray-50 p-4">
-            <img src="img/tkit.png" alt="logo Tk" class="w-14 mb-2" />
-            <span class="text-center leading-tight">TKIT</span>
+            class="relative flex flex-col items-center justify-center rounded-md aspect-square text-xs font-semibold text-white overflow-hidden shadow group"
+            style="background-image: url('img/iqis.jpeg'); background-size: cover; background-position: center;">
+            
+            <!-- Overlay gelap -->
+            <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-20 transition duration-300"></div>
+
+            <div class="relative z-10 flex flex-col items-center p-4">
+              <img src="img/tkit.png" alt="logo Tk" class="w-14 mb-2" />
+              <span class="text-center leading-tight">TKIT</span>
+            </div>
           </a>
+
 
           <a href="https://www.instagram.com/sditibnulqayyim?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
@@ -170,44 +178,34 @@
           </button>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-2">
-          <div class="bg-[#2aa19c] rounded-md p-4 text-white flex flex-col justify-between">
-          <div class="mb-3">
-            <i class="fas fa-calculator text-3xl mb-3">
-            </i>
-            <h4 class="font-semibold text-lg mb-1">
-            Pantau donasi
-            </h4>
-            <p class="text-xs leading-tight">
-            Kamu dapat mengetahui penyaluran donasimu untuk siapa, dimana, dan
-                  kapan secara realtime
-            </p>
+          <div class="bg-[#71c55d] rounded-md p-4 text-white flex flex-col justify-between">
+            <div class="mb-3">
+              <i class="fas fa-calculator text-3xl mb-3">
+              </i>
+              <h4 class="font-semibold text-lg mb-1">
+              SHALIH
+              </h4>
+            </div>
           </div>
+
+          <div class="bg-[#71c55d] rounded-md p-4 text-white flex flex-col justify-between">
+            <div class="mb-3">
+              <i class="fas fa-envelope-open-text text-3xl mb-3">
+              </i>
+              <h4 class="font-semibold text-lg mb-1">
+              HAFIZH
+              </h4>
+            </div>
           </div>
-          <div class="bg-[#2aa19c] rounded-md p-4 text-white flex flex-col justify-between">
-          <div class="mb-3">
-            <i class="fas fa-envelope-open-text text-3xl mb-3">
-            </i>
-            <h4 class="font-semibold text-lg mb-1">
-            Bersama Lebih Mudah
-            </h4>
-            <p class="text-xs leading-tight">
-            Wujudkan kebaikan Bersama para #Pejuangamal dengan sedekah terbaikmu.
-                  Insyaallh akn menjadi saksi baik mu di akhirat kelak.
-            </p>
-          </div>
-          </div>
-          <div class="bg-[#2aa19c] rounded-md p-4 text-white flex flex-col justify-between md:col-span-2">
-          <div class="mb-3">
-            <i class="fas fa-mobile-alt text-3xl mb-3">
-            </i>
-            <h4 class="font-semibold text-lg mb-1">
-            Tepat dan cepat Salur
-            </h4>
-            <p class="text-xs leading-tight">
-            Maksimalkan manfaat kebaikanmu menjadi lebih cepat dan tepat
-                  tersalur melalui berbagai proyek kebaikan pilihan.
-            </p>
-          </div>
+
+          <div class="bg-[#71c55d] rounded-md p-4 text-white flex flex-col justify-between md:col-span-2">
+            <div class="mb-3">
+              <i class="fas fa-mobile-alt text-3xl mb-3">
+              </i>
+              <h4 class="font-semibold text-lg mb-1">
+              TERAMPIL
+              </h4>
+            </div>
           </div>
         </div>
         </section>
@@ -223,72 +221,71 @@
 
     <!-- Artikel -->
       <section class="mt-16 flex flex-row items-center justify-between">
-        <h2 class="text-lg font-bold text-gray-900">Artikel</h2>
+        <h2 class="text-lg font-bold text-gray-900">Artikel Terbaru</h2>
         <a class="text-sm text-gray-700 flex items-center space-x-1 hover:text-[#71c55d]" href="#">
           <span>Lihat Semua</span>
         </a>
       </section>
 
 
-      <section class="mt-4 overflow-x-auto">
-        <div class="flex space-x-4 px-2 sm:px-0 min-w-full">
-          
-          <!-- Artikel 1 -->
-          <a href="/artikel/misi-sekolah-kami" class="block min-w-[280px] max-w-[280px] flex-shrink-0 bg-white hover:shadow-md rounded-lg transition duration-300">
-            <img src="https://storage.googleapis.com/a1aa/image/5647d0fd-f482-4ab4-ef46-96ef115ba017.jpg" alt="Misi Sekolah Kami" class="rounded-t-lg w-full h-[200px] object-cover" />
-            <div class="p-3">
-              <h3 class="font-semibold text-gray-900 text-base leading-tight">Misi Sekolah Kami</h3>
-              <p class="flex items-center text-xs text-gray-400 mt-2 space-x-1">
-                <span>Ibnul Qayyim Islamic School</span>
-              </p>
-              <p class="text-xs text-gray-600 mt-2 leading-snug">
-                Sekolah kami ada karena kami percaya bahwa pendidikan masa kini harus mencerminkan kebutuhan era digital...
-              </p>
-            </div>
-          </a>
+      <!-- Artikel Vertikal -->
+        <section class="mt-4">
+          <div class="flex flex-col space-y-4 px-2 sm:px-0">
+            
+            <!-- Artikel 1 -->
+            <a href="/artikel/misi-sekolah-kami"
+              class="w-full flex flex-row bg-white hover:shadow-md rounded-lg transition duration-300 overflow-hidden">
+              
+              <img src="img/iqis.jpeg"
+                  alt="Misi Sekolah Kami"
+                  class="w-28 h-32 object-cover rounded-l-lg" />
 
-          <!-- Artikel 2 -->
-          <a href="/artikel/kegiatan-belajar-diluar" class="block min-w-[280px] max-w-[280px] flex-shrink-0 bg-white hover:shadow-md rounded-lg transition duration-300">
-            <img src="https://storage.googleapis.com/a1aa/image/bf36d44b-5191-4ead-a77c-6377c3992dea.jpg" alt="Kegiatan Belajar diluar" class="rounded-t-lg w-full h-[200px] object-cover" />
-            <div class="p-3">
-              <h3 class="font-semibold text-gray-900 text-base leading-tight">Kegiatan Belajar di Luar</h3>
-              <p class="flex items-center text-xs text-gray-400 mt-2 space-x-1">
-                <span>Ibnul Qayyim Islamic School</span>
-              </p>
-              <p class="text-xs text-gray-600 mt-2 leading-snug">
-                Ketika berbicara tentang sekolah kami, Ibnul Qayyim, nilai pertama yang kami pegang teguh adalah...
-              </p>
-            </div>
-          </a>
+              <div class="p-3 flex flex-col justify-center flex-grow">
+                <h3 class="font-semibold text-gray-900 text-base leading-tight">Misi Sekolah Kami </h3>
+                <p class="text-[11px] text-gray-400 mt-1">Ibnul Qayyim Islamic School</p>
+                <p class="text-[11px] text-gray-600 mt-1 leading-snug line-clamp-3">
+                  Sekolah kami ada karena kami percaya bahwa pendidikan masa kini harus mencerminkan kebutuhan era digital...
+                </p>
+              </div>
+            </a>
 
-          <a href="/artikel/misi-sekolah-kami" class="block min-w-[280px] max-w-[280px] flex-shrink-0 bg-white hover:shadow-md rounded-lg transition duration-300">
-            <img src="https://storage.googleapis.com/a1aa/image/5647d0fd-f482-4ab4-ef46-96ef115ba017.jpg" alt="Misi Sekolah Kami" class="rounded-t-lg w-full h-[200px] object-cover" />
-            <div class="p-3">
-              <h3 class="font-semibold text-gray-900 text-base leading-tight">Misi Sekolah Kami</h3>
-              <p class="flex items-center text-xs text-gray-400 mt-2 space-x-1">
-                <span>Ibnul Qayyim Islamic School</span>
-              </p>
-              <p class="text-xs text-gray-600 mt-2 leading-snug">
-                Sekolah kami ada karena kami percaya bahwa pendidikan masa kini harus mencerminkan kebutuhan era digital...
-              </p>
-            </div>
-          </a>
+            <!-- Artikel 2 -->
+            <a href="/artikel/misi-sekolah-kami"
+              class="w-full flex flex-row bg-white hover:shadow-md rounded-lg transition duration-300 overflow-hidden">
+              
+              <img src="img/iqis.jpeg"
+                  alt="Misi Sekolah Kami"
+                  class="w-28 h-32 object-cover rounded-l-lg" />
 
-          <a href="/artikel/kegiatan-belajar-diluar" class="block min-w-[280px] max-w-[280px] flex-shrink-0 bg-white hover:shadow-md rounded-lg transition duration-300">
-            <img src="https://storage.googleapis.com/a1aa/image/bf36d44b-5191-4ead-a77c-6377c3992dea.jpg" alt="Kegiatan Belajar diluar" class="rounded-t-lg w-full h-[200px] object-cover" />
-            <div class="p-3">
-              <h3 class="font-semibold text-gray-900 text-base leading-tight">Kegiatan Belajar di Luar</h3>
-              <p class="flex items-center text-xs text-gray-400 mt-2 space-x-1">
-                <span>Ibnul Qayyim Islamic School</span>
-              </p>
-              <p class="text-xs text-gray-600 mt-2 leading-snug">
-                Ketika berbicara tentang sekolah kami, Ibnul Qayyim, nilai pertama yang kami pegang teguh adalah...
-              </p>
-            </div>
-          </a>
-        </div>
-      </section>
-    <!-- penutup Artikel -->
+              <div class="p-3 flex flex-col justify-center flex-grow">
+                <h3 class="font-semibold text-gray-900 text-base leading-tight">Kegiatan Outing di Gowa</h3>
+                <p class="text-[11px] text-gray-400 mt-1">Ibnul Qayyim Islamic School</p>
+                <p class="text-[11px] text-gray-600 mt-1 leading-snug line-clamp-3">
+                  Sekolah kami ada karena kami percaya bahwa pendidikan masa kini harus mencerminkan kebutuhan era digital...
+                </p>
+              </div>
+            </a>
+
+            <a href="/artikel/misi-sekolah-kami"
+              class="w-full flex flex-row bg-white hover:shadow-md rounded-lg transition duration-300 overflow-hidden">
+              
+              <img src="img/iqis.jpeg"
+                  alt="Misi Sekolah Kami"
+                  class="w-28 h-32 object-cover rounded-l-lg" />
+
+              <div class="p-3 flex flex-col justify-center flex-grow">
+                <h3 class="font-semibold text-gray-900 text-base leading-tight">Upacara Bendera Merah Putih 17 Agustus 2025</h3>
+                <p class="text-[11px] text-gray-400 mt-1">Ibnul Qayyim Islamic School</p>
+                <p class="text-[11px] text-gray-600 mt-1 leading-snug line-clamp-3">
+                  Sekolah kami ada karena kami percaya bahwa pendidikan masa kini harus mencerminkan kebutuhan era digital...
+                </p>
+              </div>
+            </a>
+
+          </div>
+        </section>
+
+
 
       
 
